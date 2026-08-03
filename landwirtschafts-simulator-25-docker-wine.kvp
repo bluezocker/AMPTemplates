@@ -37,10 +37,10 @@ App.StoreDownloadLocations={}
 App.ExecutableLinux=/usr/bin/xvfb-run
 App.WorkingDir=server
 App.LinuxCommandLineArgs=-a wine "./dedicatedServer.exe"
-App.CommandLineArgs={$PlatformArgs}
+App.CommandLineArgs={{$PlatformArgs}}
 App.UseLinuxIOREDIR=False
 App.AppSettings={}
-App.EnvironmentVariables={"WINEPREFIX":"{$FullRootDir}.wine","WINEARCH":"win64","WINEDEBUG":"-all","WINEDLLOVERRIDES":"winemenubuilder.exe=d"}
+App.EnvironmentVariables={"WINEPREFIX":"{{$FullRootDir}}.wine","WINEARCH":"win64","WINEDEBUG":"-all","WINEDLLOVERRIDES":"winemenubuilder.exe=d"}
 App.CommandLineParameterFormat=-{0} "{1}"
 App.CommandLineParameterDelimiter=
 App.ExitMethod=OS_CLOSE
