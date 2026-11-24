@@ -1,11 +1,9 @@
 {
-  "id": "4d5af778-39fb-4c73-9e43-f3dd13d8c0b1",
-  "authors": [
-    "bluezocker"
-  ],
-  "origin": "bluezocker/AMPTemplates",
-  "url": "https://github.com/bluezocker/AMPTemplates",
+  "id": "e02da9d2-f11b-4d2d-8823-54c2dd769e3b",
+  "authors": ["bluezocker"],
+  "origin": "https://github.com/bluezocker/AMPTEMPLATES/open77-amp-template.git",
+  "url": "https://github.com/bluezocker/AMPTEMPLATES/open77-amp-template",
   "imagefile": "",
-  "prefix": "LS25",
+  "prefix": "OPEN77",
   "repotype": "AppTemplates"
 }
